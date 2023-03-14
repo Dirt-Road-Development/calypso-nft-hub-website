@@ -1,0 +1,24 @@
+.container {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container .connected .activity {
+    height: 90%;
+    width: 100%;
+}
+
+.container .connected {
+    position: relative;
+    height: auto;
+    min-height: 75vh;
+}
+
+.container .connected .connection {
+    position: absolute;
+    bottom: 2.5%;
+    right: 2.5%;
+}

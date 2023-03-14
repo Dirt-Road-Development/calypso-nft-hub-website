@@ -1,0 +1,29 @@
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 20vh;
+}
+
+@media(max-width: 768px) {
+    .image-section {
+        flex-direction: column;
+    }
+
+    .image-section a {
+        margin: 16px 0;
+    }
+}
+
+.image-section a {
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section a img {
+    height: 100%;
+    width: auto;
+}

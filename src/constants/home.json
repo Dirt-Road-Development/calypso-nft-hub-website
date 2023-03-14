@@ -1,0 +1,25 @@
+{
+    "hero": {
+        "slogan": "Empowering creators. Inspiring ownership.",
+        "secondary": "Powered by SKALE Network",
+        "secondaryLink": "https://skale.space",
+        "highlightedWords": ["creators."]
+    },
+    "images": [
+        {
+            "src": "clet_logo.png",
+            "url": "https://clet.domains",
+            "alt": "Clet Name Service"
+        },
+        {
+            "src": "/domain_of_the_gods.svg",
+            "url": "https://dirtroad.dev",
+            "alt": "Domain of the Gods"
+        },
+        {
+            "src": "/nftrade_logo.svg",
+            "url": "https://nftrade.com",
+            "alt": "NFTrade"
+        }
+    ]
+}

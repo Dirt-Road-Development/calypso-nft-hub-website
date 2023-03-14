@@ -1,0 +1,61 @@
+nav {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 648px) {
+    nav {
+        height: 300px;
+    }
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    width: auto;
+}
+
+nav a h1 {
+    font-size: 2rem;
+}
+
+nav .links {
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav .links .link:hover {
+    color: var(--color-primary);
+}
+
+nav .links .selected {
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+    text-underline-position: under;
+    margin: 0 0 4px 0;
+}
+
+nav .wallet-connection {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+

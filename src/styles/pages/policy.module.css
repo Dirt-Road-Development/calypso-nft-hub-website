@@ -1,0 +1,11 @@
+.container p {
+    color: white;
+}
+
+.container h2 {
+    margin: 32px 0;
+}
+
+.container div {
+    line-height: 2;
+}

@@ -1,0 +1,59 @@
+.container {
+    height: 200px;
+    width: 20vw;
+    border: 0.15px solid seashell;
+    margin: 4px 2.5px;
+    position: relative;
+}
+
+.container .tokenType {
+    position: absolute;
+    bottom: 2.5%;
+    right: 2.5%;
+}
+
+.container .erc20,
+.container .erc721,
+.container .erc1155 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container .erc20 .tokenName {
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.container .erc721 .tokenId,
+.container .erc1155 .tokenId {
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+}
+
+.container .erc1155 .balance {
+    position: absolute;
+    bottom: 2.5%;
+    left: 2.5%;
+}
+
+.container p {
+    text-align: center;
+}
+
+@media(max-width: 648px) {
+    .container {
+        width: 40vw;
+    }
+
+    .container .erc1155 .balance {
+        font-size: medium;
+        top: 2.5%;
+        right: 2.5%;
+        text-align: right;
+    }
+}

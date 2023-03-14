@@ -1,0 +1,21 @@
+.container {
+	width: calc(100% - 256px);
+	margin: 0 128px 0 128px;
+	height: auto;
+	min-height: 75vh;
+	overflow-x: hidden;
+}
+
+@media(max-width: 764px) {
+	.container {
+		width: calc(100% - 32px);
+		margin: 0 16px 0 16px;
+	}
+}
+
+@media(max-width: 1024px) {
+	.container {
+		width: calc(100% - 64px);
+		margin: 0 32px 0 32px;
+	}
+}
