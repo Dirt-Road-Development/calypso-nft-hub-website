@@ -24,7 +24,7 @@ export default function Navigation() {
     return (
         <nav>
             <Link style={{ textDecoration: "none"}} href="/">
-                <img src="/calypso_nft_hub.svg" />
+                <img src="/calypso_nft_hub.svg" alt="Calypso NFT Hub" />
                 <h1>Calypso NFT Hub</h1>
             </Link>
             <div className="links">

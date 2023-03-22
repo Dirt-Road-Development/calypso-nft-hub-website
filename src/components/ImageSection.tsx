@@ -1,3 +1,4 @@
+import Image from "next/image";
 import css from "../styles/components/image_section.module.css";
 import { ImageSectionProps } from "../types"
 

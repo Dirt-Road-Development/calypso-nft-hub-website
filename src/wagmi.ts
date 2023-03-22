@@ -17,8 +17,8 @@ import {
 import { Chain, configureChains, createClient } from 'wagmi'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc';
 
-// const isProduction: boolean = process.env.NODE_ENV === "production";
-const isProduction = true;
+const isProduction: boolean = process.env.NODE_ENV === "production";
+// const isProduction = true;
 
 type ChainNames = "calypso";
 
@@ -41,7 +41,12 @@ export const clients: Record<ChainNames, Chain> = {
       etherscan: { name: 'Blockscout', url: isProduction ? "https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com" : "https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com" },
       default: { name: 'Blockscout', url: isProduction ? "https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com" : "https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com" },
     },
-    contracts: {}
+    contracts: {
+      multicall3: {
+        blockCreated: 1168229,
+        address: "0xc0438d74d9eeD89c1a97Fda2Fc379617A8a62D68"
+      }
+    }
   }
 };
 

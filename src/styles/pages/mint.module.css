@@ -1,0 +1,28 @@
+.container {
+    height: auto;
+    min-height: 80vh;
+}
+
+.container .canMint {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .canMint .mintButton {
+    width: 25%;
+    padding: 8px 0;
+    margin: 16px 0;
+    background: var(--color-primary);
+    color: black;
+    border: none;
+    border-radius: 32px;
+    color: white;
+}
+
+.container .canMint .mintButton:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
